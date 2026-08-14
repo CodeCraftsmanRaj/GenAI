@@ -1,0 +1,28 @@
+seed: 42
+device: auto
+
+data:
+  name: MNIST
+  data_dir: ./data
+  batch_size: 128
+  num_workers: 2
+  pin_memory: true
+
+model:
+  input_dim: 784
+  latent_dim: 16
+  num_classes: 10
+
+training:
+  epochs: 20
+  lr: 0.001
+  weight_decay: 0.00001
+  beta: 4.0
+  sparsity_lambda: 0.001
+  grad_clip: 5.0
+
+experiment:
+  models: [shallow_ae, deep_ae, sparse_ae, vae, beta_vae, cvae]
+  output_dir: ./outputs
+  save_samples: true
+  sample_count: 16
