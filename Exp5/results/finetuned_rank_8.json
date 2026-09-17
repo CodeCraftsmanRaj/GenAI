@@ -1,0 +1,36 @@
+{
+  "model": "distilgpt2",
+  "rank": 8,
+  "queries": [
+    {
+      "query_id": 1,
+      "query": "I noticed a cash withdrawal that I do not recognize. What should I do?",
+      "response": "If I have any questions, please contact me.",
+      "score": null
+    },
+    {
+      "query_id": 2,
+      "query": "My mobile banking app says that my account is temporarily blocked. How can I regain access?",
+      "response": "If you have any questions, please contact Customer Support.",
+      "score": null
+    },
+    {
+      "query_id": 3,
+      "query": "I transferred money yesterday but the recipient still has not received it. What should I check?",
+      "response": "If you have any questions, please contact me at [email protected].",
+      "score": null
+    },
+    {
+      "query_id": 4,
+      "query": "I want to change the phone number linked to my bank account. What is the process?",
+      "response": "You can change the number of times the customer has been contacted by the bank. If you have any questions, please contact me.",
+      "score": null
+    },
+    {
+      "query_id": 5,
+      "query": "My debit card is not working even though I have sufficient balance. What should I check?",
+      "response": "Check your bank account and check your credit card details.",
+      "score": null
+    }
+  ]
+}

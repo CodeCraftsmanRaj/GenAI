@@ -1,0 +1,26 @@
+{
+  "before_cleaning": {
+    "records": 5574,
+    "missing_text": 0,
+    "duplicate_rows": 403,
+    "class_distribution": {
+      "0": 4827,
+      "1": 747
+    },
+    "average_chars": 81.47829207032652
+  },
+  "after_cleaning": {
+    "records": 5171,
+    "missing_text": 0,
+    "duplicate_rows": 0,
+    "class_distribution": {
+      "0": 4518,
+      "1": 653
+    },
+    "average_chars": 80.33243086443628
+  },
+  "label_mapping": {
+    "0": 0,
+    "1": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "model": "distilgpt2",
+  "queries": [
+    {
+      "query_id": 1,
+      "query": "I noticed a cash withdrawal that I do not recognize. What should I do?",
+      "response": "I have no idea what I am doing. I just want to know what I can do.\nI have no clue what I will do. I don't even know what it will be like. I'm just trying to figure out how to get",
+      "score": null
+    },
+    {
+      "query_id": 2,
+      "query": "My mobile banking app says that my account is temporarily blocked. How can I regain access?",
+      "response": "My account is being blocked. What can I do to prevent this from happening?\nI have no idea what to do with my account. I have no way of knowing how to restore my account, but I am sure I will be able to restore",
+      "score": null
+    },
+    {
+      "query_id": 3,
+      "query": "I transferred money yesterday but the recipient still has not received it. What should I check?",
+      "response": "I am not sure what to do with the money. I have no idea what I can do with it. I don't know how to do that. I just want to know if I can get the money back. If I can, I can",
+      "score": null
+    },
+    {
+      "query_id": 4,
+      "query": "I want to change the phone number linked to my bank account. What is the process?",
+      "response": "You can change the number of times you need to change your phone number. You can also change the amount of time it takes to change a phone number, or change the date of your appointment.\nIf you want to make a change to your phone",
+      "score": null
+    },
+    {
+      "query_id": 5,
+      "query": "My debit card is not working even though I have sufficient balance. What should I check?",
+      "response": "My card is working fine. I am not sure what to do with it. I have no idea how to use it.\nI don't know if I can find a way to get my debit card to work. If I can, I can",
+      "score": null
+    }
+  ]
+}

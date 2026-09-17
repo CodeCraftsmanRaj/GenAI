@@ -1,0 +1,19 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "tokenizer": "Qwen2Tokenizer",
+  "max_sequence_length": 128,
+  "total_records": 120,
+  "train_records": 96,
+  "validation_records": 12,
+  "test_records": 12,
+  "min_tokens": 38,
+  "max_tokens": 57,
+  "mean_tokens": 47.23,
+  "median_tokens": 47.0,
+  "records_reaching_max_length": 0,
+  "truncation": true,
+  "padding": "dynamic / applied during training",
+  "pad_token": "<|endoftext|>",
+  "pad_token_id": 151643,
+  "sequence_length_justification": "128 tokens provides sufficient room for the instruction, customer query and banking-support response while keeping CPU memory and training time manageable."
+}

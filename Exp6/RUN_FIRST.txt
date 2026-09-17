@@ -1,0 +1,7 @@
+EXP6 FIRST RUN
+1. cd into this project.
+2. uv add -r requirements.txt
+3. Optional smoke test: uv run main.py --quick
+4. Full experiment: uv run main.py
+5. Paste the terminal output and results/comparison.csv, results/summary.json, results/robustness.json back into ChatGPT.
+6. I can then replace the README placeholders with the actual measured results and answer all 10 discussion questions from the evidence.

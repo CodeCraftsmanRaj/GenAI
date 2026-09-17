@@ -1,0 +1,111 @@
+seed: 42
+
+project:
+  name: "EXP6_BERT_Sentence_Classification"
+  task: "sms_spam"
+  output_dir: "results"
+  model_dir: "models"
+
+data:
+  # Hugging Face dataset. The loader also detects common text/label column names.
+  hf_dataset: "ucirvine/sms_spam"
+  text_column: null
+  label_column: null
+  test_size: 0.15
+  validation_size: 0.15
+  max_train_samples: null
+  max_eval_samples: null
+  max_test_samples: null
+
+preprocessing:
+  # Version A: only whitespace cleanup; Version B: normalized text.
+  version_a: "minimal"
+  version_b: "normalized"
+
+tokenization:
+  model_name: "bert-base-uncased"
+  sequence_lengths: [32, 128]
+
+training:
+  baseline:
+    learning_rate: 2.0e-5
+    batch_size: 16
+    epochs: 3
+    weight_decay: 0.01
+    warmup_ratio: 0.1
+  hyperparameter_grid:
+    learning_rate: [2.0e-5, 3.0e-5, 5.0e-5]
+    batch_size: [8, 16]
+    epochs: [2, 3]
+    weight_decay: [0.0, 0.01]
+  # To keep the lab run practical, only the combinations below are run by default.
+  # Add more combinations if your GPU/time allows.
+  selected_hyperparameters:
+    - learning_rate: 2.0e-5
+      batch_size: 16
+      epochs: 3
+      weight_decay: 0.01
+    - learning_rate: 3.0e-5
+      batch_size: 16
+      epochs: 3
+      weight_decay: 0.01
+    - learning_rate: 5.0e-5
+      batch_size: 16
+      epochs: 3
+      weight_decay: 0.01
+  classifier:
+    dropout: 0.1
+    hidden_dim: 256
+  imbalance:
+    use_class_weights: true
+
+experiments:
+  run_preprocessing_comparison: true
+  run_sequence_length_comparison: true
+  run_hyperparameter_comparison: true
+  run_classifier_heads: true
+  run_imbalance_comparison: true
+  run_robustness: true
+  generate_plots: true
+  save_models: true
+
+robustness:
+  # These are deliberately varied examples for qualitative robustness testing.
+  # Labels are based on the intended semantic category and are used only for evaluation.
+  examples:
+    - text: "Congrats! You won a £1000 cash prize. Call now to claim."
+      label: 1
+      category: "normal"
+    - text: "congrts u won a cash prize call now!!!"
+      label: 1
+      category: "spelling_error"
+    - text: "URGENT: free entry txt WIN to 80082"
+      label: 1
+      category: "abbreviation"
+    - text: "I am not asking you to buy anything, just checking in."
+      label: 0
+      category: "negation"
+    - text: "You have been selected for a free reward. Reply now."
+      label: 1
+      category: "paraphrase"
+    - text: "Can you call me?"
+      label: 0
+      category: "short"
+    - text: "Congratulations, you have been selected to receive a free cash reward; please contact the number in this message immediately to arrange collection."
+      label: 1
+      category: "long"
+    - text: "You may have won something, but I am not sure."
+      label: 0
+      category: "ambiguous"
+    - text: "Your account has been credited with a bonus. Verify your details to receive it."
+      label: 1
+      category: "domain_specific"
+    - text: "Hey, are we still meeting at 7 tonight?"
+      label: 0
+      category: "normal"
+    - text: "I didn't win anything, so please ignore the earlier message."
+      label: 0
+      category: "negation"
+    - text: "Pls send me the address when u get a chance."
+      label: 0
+      category: "abbreviation"

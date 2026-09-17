@@ -1,0 +1,3 @@
+LoRA Rank,Total Parameters,Trainable Parameters,Trainable %,Training Time (min),Epochs,Train Loss,Validation Loss,Average Test Score
+4,81986304,73728,0.0899,1.0178,5,3.6003341674804688,3.419780731201172,
+8,82060032,147456,0.1797,0.9994,5,3.573849105834961,3.398167610168457,

@@ -1,0 +1,24 @@
+[
+  {
+    "LoRA Rank": 4,
+    "Total Parameters": 81986304,
+    "Trainable Parameters": 73728,
+    "Trainable %": 0.0899,
+    "Training Time (min)": 1.0178,
+    "Epochs": 5,
+    "Train Loss": 3.6003341674804688,
+    "Validation Loss": 3.419780731201172,
+    "Average Test Score": null
+  },
+  {
+    "LoRA Rank": 8,
+    "Total Parameters": 82060032,
+    "Trainable Parameters": 147456,
+    "Trainable %": 0.1797,
+    "Training Time (min)": 0.9994,
+    "Epochs": 5,
+    "Train Loss": 3.573849105834961,
+    "Validation Loss": 3.398167610168457,
+    "Average Test Score": null
+  }
+]

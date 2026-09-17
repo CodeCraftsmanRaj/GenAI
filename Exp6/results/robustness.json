@@ -1,0 +1,86 @@
+[
+  {
+    "text": "Congrats! You won a £1000 cash prize. Call now to claim.",
+    "label": 1,
+    "category": "normal",
+    "prediction": 1,
+    "correct": true
+  },
+  {
+    "text": "congrts u won a cash prize call now!!!",
+    "label": 1,
+    "category": "spelling_error",
+    "prediction": 0,
+    "correct": false
+  },
+  {
+    "text": "URGENT: free entry txt WIN to 80082",
+    "label": 1,
+    "category": "abbreviation",
+    "prediction": 1,
+    "correct": true
+  },
+  {
+    "text": "I am not asking you to buy anything, just checking in.",
+    "label": 0,
+    "category": "negation",
+    "prediction": 0,
+    "correct": true
+  },
+  {
+    "text": "You have been selected for a free reward. Reply now.",
+    "label": 1,
+    "category": "paraphrase",
+    "prediction": 1,
+    "correct": true
+  },
+  {
+    "text": "Can you call me?",
+    "label": 0,
+    "category": "short",
+    "prediction": 0,
+    "correct": true
+  },
+  {
+    "text": "Congratulations, you have been selected to receive a free cash reward; please contact the number in this message immediately to arrange collection.",
+    "label": 1,
+    "category": "long",
+    "prediction": 1,
+    "correct": true
+  },
+  {
+    "text": "You may have won something, but I am not sure.",
+    "label": 0,
+    "category": "ambiguous",
+    "prediction": 0,
+    "correct": true
+  },
+  {
+    "text": "Your account has been credited with a bonus. Verify your details to receive it.",
+    "label": 1,
+    "category": "domain_specific",
+    "prediction": 1,
+    "correct": true
+  },
+  {
+    "text": "Hey, are we still meeting at 7 tonight?",
+    "label": 0,
+    "category": "normal",
+    "prediction": 0,
+    "correct": true
+  },
+  {
+    "text": "I didn't win anything, so please ignore the earlier message.",
+    "label": 0,
+    "category": "negation",
+    "prediction": 0,
+    "correct": true
+  },
+  {
+    "text": "Pls send me the address when u get a chance.",
+    "label": 0,
+    "category": "abbreviation",
+    "prediction": 0,
+    "correct": true
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "source": "synthetic",
+  "seed_records": 20,
+  "records_before_cleaning": 120,
+  "missing_values": 0,
+  "duplicates_removed": 0,
+  "records_after_cleaning": 120,
+  "train": 96,
+  "validation": 12,
+  "test": 12,
+  "split_ratios": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "instruction": "Answer the customer query professionally and concisely."
+}

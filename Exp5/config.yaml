@@ -1,0 +1,55 @@
+seed: 42
+
+project:
+  name: "EXP5_Banking_Customer_Support_LoRA"
+  output_dir: "results"
+  model_dir: "models"
+
+data:
+  source: "synthetic"
+  csv_path: "data/banking_support.csv"
+
+  train_ratio: 0.80
+  val_ratio: 0.10
+  test_ratio: 0.10
+
+  instruction: "Answer the customer query professionally and concisely."
+
+  synthetic_samples: 120
+
+model:
+  name: "Qwen/Qwen2.5-1.5B-Instruct"
+  max_length: 128
+
+lora:
+  r: 8
+  alpha: 16
+  dropout: 0.05
+  target_modules:
+    - "c_attn"
+  task_type: "CAUSAL_LM"
+
+training:
+  learning_rate: 0.0001
+  batch_size: 1
+  gradient_accumulation_steps: 4
+
+  epochs: 5
+
+  weight_decay: 0.01
+  warmup_ratio: 0.05
+  logging_steps: 10
+
+  save_strategy: "epoch"
+
+evaluation:
+  num_baseline_queries: 5
+  num_test_queries: 5
+  score_scale: 5
+
+experiments:
+  ranks:
+    - 4
+    - 8
+
+  run_rank_comparison: true

@@ -93,3 +93,6 @@ logs/
 *.temp
 *.bak
 .DS_Store
+
+Exp6/models
+Exp5/models
