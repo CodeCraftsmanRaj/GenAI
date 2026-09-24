@@ -1,0 +1,19 @@
+# Experiment 7 - Domain-Specific GenAI Chatbot
+app:
+  title: "Banking AI Assistant"
+  page_icon: "🏦"
+  domain_name: "Banking Customer Support"
+  max_history: 10
+
+model:
+  name: "openai/gpt-oss-120b"
+  max_new_tokens: 200
+  temperature: 0.2
+  do_sample: true
+
+prompt:
+  mode: "domain_specific"
+  refuse_out_of_domain: true
+
+evaluation:
+  questions_file: "data/evaluation_questions.yaml"
