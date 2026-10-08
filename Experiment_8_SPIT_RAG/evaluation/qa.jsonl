@@ -1,0 +1,5 @@
+{"question":"What topics are covered by the lab experiment?","expected_source":"DEMO_RAG_OVERVIEW.md"}
+{"question":"What does the demonstration knowledge base say about missing evidence?","expected_source":"DEMO_RAG_OVERVIEW.md"}
+{"question":"Which data should never be included in the ERP knowledge base?","expected_source":"DATA_PRIVACY.md"}
+{"question":"What is the recommended initial top-k value in the lab manual?","expected_source":""}
+{"question":"What is the official placement percentage for the latest graduating batch?","expected_source":""}

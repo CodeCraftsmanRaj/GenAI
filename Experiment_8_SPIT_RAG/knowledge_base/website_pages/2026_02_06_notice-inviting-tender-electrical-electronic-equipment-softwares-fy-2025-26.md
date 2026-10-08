@@ -1,0 +1,15 @@
+# Notice Inviting Tender – Electrical, Electronic Equipment & Software (FY 2025–26) «  Sardar Patel Institute of Technology
+
+Source URL: https://www.spit.ac.in/2026/02/06/notice-inviting-tender-electrical-electronic-equipment-softwares-fy-2025-26/
+
+Retrieved for the SPIT RAG knowledge base.
+
+## Notice Inviting Tender – Electrical, Electronic Equipment & Software (FY 2025–26)
+
+posted by administrator@spit.ac.in on February 6th, 2026 under Announcements
+
+Notice Inviting Tender
+
+Annexure III
+
+Miscellaneous

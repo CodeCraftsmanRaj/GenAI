@@ -1,0 +1,15 @@
+# Contact «  Sardar Patel Institute of Technology
+
+Source URL: https://www.spit.ac.in/about/contact/
+
+Retrieved for the SPIT RAG knowledge base.
+
+## Contact
+
+Sardar Patel Institute of Technology Bhavan’s Campus, Munshi Nagar, Andheri (West), Mumbai 400 058 For admission inquiries please refer contact details on the admissions page.
+
+College Landline Numbers : 69846900 /  69846927
+
+Mobile Numbers: 9930362014 /  9930362034
+
+principal{at}spit.ac.in

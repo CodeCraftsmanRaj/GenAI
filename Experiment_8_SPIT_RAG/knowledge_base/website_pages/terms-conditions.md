@@ -1,0 +1,25 @@
+# Terms & Conditions «  Sardar Patel Institute of Technology
+
+Source URL: https://www.spit.ac.in/terms-conditions/
+
+Retrieved for the SPIT RAG knowledge base.
+
+## Terms & Conditions
+
+Please read these terms carefully before using the online payment facility. This online-payment system is provided and hosted by Sardar Patel Institute of Technology (S.P.I.T.) and its third party suppliers. By submitting your personal information, you are consenting to S.P.I.T. holding and using it in accordance with this policy. The policy is subject to change and any changes to it in the future will be notified on this page. By continuing to use this payment site you are agreeing to such changes. We recommend that you check the privacy policy each time you visit this site.
+
+Terms & Conditions
+
+Online payment of fee can be made, using the following modes:
+
+Net Banking / Debit Card (VISA, MasterCard, Maestro, Rupay)/Credit Card (VISA, MasterCard, Discover, Amex), Mobile and digital wallet (PayTM, Airtel money, Vodafone m-pesa, Tata mRupee)
+
+For making online payment of fee, login at the portal and follow the instructions thereafter. After successful completion of the payment, the system will be directed back to the portal, generate receipt of the payment made and students are to produce the same as and when required. S.P.I.T. does not charge any processing fee or service charge from the students for online payment. However, the students have to pay the charges as applicable for the merchant banks. It is recommended that you take and retain a copy of the transaction for record keeping purposes, which might assist in resolution of any disputes that may arise out of usage of the service.
+
+Your payment will normally reach S.P.I.T. account to which you are making a payment within two working days. S.P.I.T. shall not be liable for payment of fee, which is deposited to the wrong account due to quoting of incorrect information. We cannot accept liability for a payment not reaching the correct S.P.I.T. account if payment is refused or declined by the credit/debit card supplier for any reason. If the card supplier declines payment, S.P.I.T. is under no obligation to bring this fact to your notice. Kindly confirm with your bank/credit/debit card supplier that the payment has been deducted from your account. In no event will S.P.I.T. be liable for any damages, direct or indirect, whatsoever arising out of the use, inability to use, or the results of use of this site, any websites linked to this site, or the materials or information contained at any or all such sites, whether based on warranty, contract, tort or any other legal theory and whether or not advised of the possibility of such damages. The service is provided using a payment gateway service provider through a secure website. However S.P.I.T. does not accept or assume any liability in the event of any unauthorized interception, hacking or other unauthorized access to information provided by a user of the service.
+
+The Applicant further agrees and undertakes to provide correct and valid debit/credit card details and is fully and lawfully entitled to use the credit / debit card, bank account for such transactions.
+
+S.P.I.T. reserves the right to vary these terms and conditions from time to time and the current version will be that published on this website. We reserve the right to decline the acceptance of an online payment if your account is in default for any reason. S.P.I.T. may also make additions/deletions/alteration to the services offered, at its sole discretion and also reserve the right to withdraw the service at any time at its discretion, without prior notice.
+
+These terms and conditions are governed by the laws of India and the competent courts at Mumbai shall have exclusive jurisdiction.

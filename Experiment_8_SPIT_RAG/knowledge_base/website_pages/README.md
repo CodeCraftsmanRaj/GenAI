@@ -1,0 +1,1 @@
+Place downloaded/saved official public SPIT web pages as HTML, Markdown or TXT here. Record each source URL and collection date in `metadata/sources.csv` (create this file for your run). The included DEMO_RAG_OVERVIEW.md is synthetic and must not be presented as official SPIT content.

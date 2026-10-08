@@ -1,0 +1,11 @@
+# UG Programme «  Sardar Patel Institute of Technology
+
+Source URL: https://www.spit.ac.in/academics/graduate/
+
+Retrieved for the SPIT RAG knowledge base.
+
+## UG Programme
+
+Sardar Patel Institute of Technology offers degree programs in the following areas. Our goal is to educate students who excel in engineering and applied science and also have a working knowledge of other disciplines.
+
+Degree Awarded B.Tech. Computer Engineering – 240 B.Tech. Electronics and Telecommunication Engineering -120 B.Tech. Computer Science And Engineering  – 120

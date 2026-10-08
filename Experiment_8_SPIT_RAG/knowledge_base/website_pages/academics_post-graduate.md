@@ -1,0 +1,27 @@
+# PG Programme «  Sardar Patel Institute of Technology
+
+Source URL: https://www.spit.ac.in/academics/post-graduate/
+
+Retrieved for the SPIT RAG knowledge base.
+
+## PG Programme
+
+Sardar Patel Institute of Technology offers a newly introduced master’s degree program in Computer Applications a three-year (six semester) course.
+
+Degree Awarded Master of Computer Applications (MCA)
+
+Duration 2 years
+
+Intake 60 seats
+
+Degree Awarded M.Tech. (Electronics & Telecommunication)
+
+Duration 2 years
+
+Intake 18 seats
+
+Degree Awarded M.Tech. (Computer Engineering)
+
+Duration 2 years
+
+Intake 18 seats
