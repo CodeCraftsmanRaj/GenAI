@@ -1,0 +1,13 @@
+soundfile
+moviepy
+imageio-ffmpeg
+scipy
+PyYAML
+Pillow
+numpy
+sentencepiece
+safetensors
+accelerate
+transformers
+diffusers
+torch

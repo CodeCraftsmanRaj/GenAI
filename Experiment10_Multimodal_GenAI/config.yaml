@@ -1,0 +1,66 @@
+project:
+  name: "Experiment 10 - Multimodal Content Generation"
+  student_name: "Raj Mathuria"
+  uid: "2023300139"
+  batch: "PE-C"
+  seed: 42
+  output_dir: "results"
+
+models:
+  image:
+    name: "stabilityai/sd-turbo"
+    device: "auto"
+    width: 512
+    height: 512
+    num_inference_steps: 4
+    guidance_scale: 0.0
+  audio:
+    name: "facebook/musicgen-small"
+    device: "auto"
+    duration_seconds: 20
+    max_new_tokens: 512
+
+prompts:
+  common: >-
+    Human genetic diversity and responsible AI in healthcare, respectful illustration
+    of diverse adults, abstract DNA structures, subtle AI-inspired scientific elements,
+    futuristic blue-and-purple style, calm, empathetic, hopeful atmosphere.
+  image: >-
+    Educational editorial illustration about human genetic diversity and responsible
+    AI in healthcare. A diverse group of adults represented respectfully, abstract DNA
+    double helix, subtle scientific data motifs and AI-inspired network lines, futuristic
+    blue and purple palette, soft cinematic lighting, calm empathetic hopeful atmosphere,
+    balanced composition with clean negative space for titles, no text, no logos, no
+    medical diagnosis, no stereotyped representation.
+  music: >-
+    Gentle inspirational cinematic instrumental about scientific discovery, human
+    diversity and responsible healthcare technology; soft piano, warm ambient
+    synthesizers, subtle strings, gradual uplifting progression, calm hopeful mood,
+    thoughtful and compassionate, no vocals, suitable beneath educational captions.
+
+video:
+  duration_seconds: 20
+  fps: 24
+  width: 1280
+  height: 720
+  title: "Human Genetic Diversity and Responsible AI"
+  disclosure: "AI-GENERATED EDUCATIONAL CONTENT"
+  captions:
+    - start: 0
+      end: 4
+      text: "Human genetic diversity is part of our shared humanity."
+    - start: 4
+      end: 8
+      text: "Every individual is unique."
+    - start: 8
+      end: 13
+      text: "AI can support scientific research and help researchers study complex data."
+    - start: 13
+      end: 18
+      text: "Facial appearance alone cannot establish a genetic diagnosis."
+    - start: 18
+      end: 20
+      text: "Clinical diagnosis requires qualified healthcare professionals."
+  audio:
+    volume: 0.28
+    fade_out_seconds: 1.5
