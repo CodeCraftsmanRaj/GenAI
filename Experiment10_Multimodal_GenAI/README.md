@@ -44,7 +44,7 @@ All generated artifacts are saved under `results/`:
 - `evaluation_checklist.md`
 - `run.log`
 
-A separate image-to-video model is not required by the lab manual. The video is composed from the generated image and music, with motion, title, captions, and audio synchronization.
+A separate image-to-video model is not required by the lab manual. The same configured SD-Turbo and MusicGen Small models are retained. Captions are timed educational on-screen messages, not speech transcription: the soundtrack is intentionally instrumental-only. The composer normalizes the audio before applying its mix level, and the subtitle file uses the same caption timings and wording as the video overlays.
 
 ## Ethical safeguards
 The video states that AI can support research but cannot establish a genetic diagnosis from facial appearance alone. Do not use patient photos or present generated faces as real cases. Review outputs for representational bias, artefacts, model licensing, and responsible use.
